@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 // Typed.JS
 var typed = new Typed('.customelement', {
-  strings: ["E-sporter", "Senior Javascript Developer.", "Senior MERN Stack Developer",  "Photographer."],
+  strings: ["Senior Javascript Developer.", "Senior MERN Stack Developer."],
   typeSpeed: 100,
   backSpeed: 45,
   loop: true
@@ -23,7 +23,7 @@ myform.submit(function(event){
   event.preventDefault();
 
   var service_id = "default_service";
-  var template_id = "template_IvanAdamovic";
+  var template_id = "template_Milos_Zdravkovic";
 
   myform.find("button").text("Sending...");
   emailjs.sendForm(service_id,template_id,myform[0])
